@@ -54,10 +54,11 @@ function piglatin(string) {
   if (firstposition > 0) {
     return string.slice(firstposition) + string.slice(0, firstposition) + "ay";
 
-    // console.log(string.slice(firstposition)+string.slice(0,firstposition)+"ay");
     console.log(result);
 
 
+  } else {
+    return string+"way"
   }
 
 
